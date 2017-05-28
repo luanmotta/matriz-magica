@@ -26,9 +26,9 @@ class Main {
         ciclos = 0;
       }
 
-      pais = selecionarPopulacao(populacao, solucaoIdeal);     
+      pais = selecionarPopulacao(populacao, solucaoIdeal);
       populacao = cruzarPopulacao(pais);
-      populacao = mutarPopulacao(populacao)
+      populacao = mutarPopulacao(populacao);
 
       console.log(populacao);
     
